@@ -1,0 +1,11 @@
+extends header
+block content 
+    h4.text-center Result
+    .card
+        img.text-center(src= result.playerImg alt='Avatar' style='width:300px')
+        .container
+            h4.text-center
+                b= result.name
+            p.text-center= result.role 
+            p.text-center= result.country
+

@@ -1,0 +1,16 @@
+extends header
+block content 
+    h4.text-center T20 FINAL WORLDCUP MATCH
+    div
+        each team in jsonObject 
+            table
+                tr.text-center  
+                    th(colspan="2")= team.team
+                tr 
+                    th Name 
+                    th Role
+                each player in team.players
+                    tr 
+                        td
+                            a(href= '/search_player_by_click/'+player.name) #{player.name}
+                        td= player.role

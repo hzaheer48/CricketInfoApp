@@ -1,0 +1,21 @@
+extends header
+block content 
+    h4.text-center RECENTLY PLANNED SERIES
+    table
+        tr.text-center  
+            th Name
+            th Start Date 
+            th End Date
+            th ODI 
+            th T20 
+            th TEST 
+            th Matches
+        each serie in series
+            tr 
+                td= serie.name
+                td= serie.startDate
+                td= serie.endDate
+                td= serie.odi 
+                td= serie.t20
+                td= serie.test 
+                td= serie.matches  

@@ -1,0 +1,17 @@
+extends header
+block content 
+    h4.text-center DETAILS OF RECENT EVENTS (DETAILED)
+    table
+        tr.text-center  
+            th Name
+            th Type 
+            th Status 
+            th Venue 
+            th Date 
+        each detail in details
+            tr 
+                td= detail.name
+                td= detail.matchType
+                td= detail.status
+                td= detail.venue 
+                td= detail.date  

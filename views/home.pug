@@ -1,0 +1,12 @@
+extends header
+block content 
+    h4.text-center DETAILS OF RECENT EVENTS (ABSTRACT)
+    table 
+        tr.text-center 
+            th Name 
+        each abstract in abstracts
+            tr 
+                td= abstract.name 
+
+
+

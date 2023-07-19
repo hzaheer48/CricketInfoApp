@@ -1,0 +1,132 @@
+[
+    {
+        "team":"England",
+        "players": [
+            {
+                "name":"Jos Buttler",
+                "role":"Captain - Wicket Kepper"
+            },
+            {
+                "name":"Mark Wood",
+                "role":"Bowler"
+            },
+            {
+                "name":"David Willey",
+                "role":"Bowler"
+            },
+            {
+                "name":"Phil Salt",
+                "role":"Batter"
+            },
+            {
+                "name":"Dawid Malan",
+                "role":"Batter"
+            },
+            {
+                "name":"Chris Jordan",
+                "role":"Bowler"
+            },
+            {
+                "name":"Harry Brook",
+                "role":"Batter"
+            },
+            {
+                "name":"Alex Hales",
+                "role":"Batter"
+            },
+            {
+                "name":"Chris Woakes",
+                "role":"All-Rounder"
+            },
+            {
+                "name":"Ben Stokes",
+                "role":"All-Rounder"
+            },
+            {
+                "name":"Adil Rashid",
+                "role":"Bowler"
+            },
+            {
+                "name":"Liam Livingstone",
+                "role":"All-Rounder"
+            },
+            {
+                "name":"Sam Curran",
+                "role":"All-Rounder"
+            },
+            {
+                "name":"Moeen Ali",
+                "role":"All-Rounder"
+            },
+            {
+                "name":"Tymal Mills",
+                "role":"Bowler"
+            }
+        ]
+    },
+    {
+        "team":"Pakistan",
+        "players": [
+            {
+                "name":"Babar Azam",
+                "role":"Captain - Batter"
+            },
+            {
+                "name":"Haris Rauf",
+                "role":"Bowler"
+            },
+            {
+                "name":"Shaheen Shah Afridi",
+                "role":"Bowler"
+            },
+            {
+                "name":"Asif Ali",
+                "role":"Batter"
+            },
+            {
+                "name":"Haider Ali",
+                "role":"Batter"
+            },
+            {
+                "name":"Naseem Shah",
+                "role":"Bowler"
+            },
+            {
+                "name":"Mohammad Haris",
+                "role":"Batter"
+            },
+            {
+                "name":"Khushdil Shah",
+                "role":"Batter"
+            },
+            {
+                "name":"Shadab Khan",
+                "role":"All-Rounder"
+            },
+            {
+                "name":"Mohammad Nawaz",
+                "role":"All-Rounder"
+            },
+            {
+                "name":"Mohammad Hasnain",
+                "role":"Bowler"
+            },
+            {
+                "name":"Iftikhar Ahmed",
+                "role":"All-Rounder"
+            },
+            {
+                "name":"Muhammad Rizwan",
+                "role":"Wicket Keeper"
+            },
+            {
+                "name":"Shan Masood",
+                "role":"Batter"
+            },
+            {
+                "name":"Mohammad Wasim",
+                "role":"Bowler"
+            }
+        ]
+    }
+]

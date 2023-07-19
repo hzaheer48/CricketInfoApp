@@ -1,0 +1,7 @@
+extends header
+block content 
+    h4.text-center Search Player
+    div#form_div
+        form(action="/search_player_by_name", method="get") 
+            input#name_input(type="text", name="name")
+            button(type="submit") Search    

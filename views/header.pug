@@ -1,0 +1,43 @@
+doctype html
+head
+  title Cricket Information
+  meta(charset='utf-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no')
+  style 
+    link(href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css')
+    link(rel='stylesheet' href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css')
+    include ../static/css/style.css
+section.ftco-section
+  .container-fluid.px-md-5
+    .row.justify-content-between
+      .col-md-12.order-md-last
+        .row
+          .col-md-12.text-center
+            a.navbar-brand(href='/index')
+              | CRICKET INFORMATION
+              span USING API
+  nav#ftco-navbar.navbar.navbar-expand-lg.navbar-dark.ftco_navbar.bg-dark.ftco-navbar-light
+    .container-fluid
+      button.navbar-toggler(type='button' data-toggle='collapse' data-target='#ftco-nav' aria-controls='ftco-nav' aria-expanded='false' aria-label='Toggle navigation')
+        span.fa.fa-bars
+        |  Menu
+      #ftco-nav.collapse.navbar-collapse
+        ul.navbar-nav.m-auto
+          li.nav-item.active
+            a.nav-link(href='/index') Homepage
+          li.nav-item
+            a.nav-link(href='/scoreboard') Scoreboard
+          li.nav-item
+            a.nav-link(href='/series') Series Info
+          li.nav-item
+            a.nav-link(href='/teams') T20 Final Teams
+          li.nav-item
+            a.nav-link(href='/search') Search Player
+body 
+  block content 
+
+
+script(src='../static/js/jquery.min.js')
+script(src='../static/js/popper.js')
+script(src='../static/js/bootstrap.min.js')
+script(src='../static/js/main.js')
