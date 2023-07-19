@@ -15,14 +15,16 @@ const API_KEY = 'bfc9ca34-bbb4-44db-a5a3-1d73883e4325'
 
 
 
-app.get('/index', (req, res)=>{
-    let url = "https://api.cricapi.com/v1/currentMatches?apikey="+API_KEY;
+app.get(['/', '/index'], (req, res) => {
+    let url = "https://api.cricapi.com/v1/currentMatches?apikey=" + API_KEY;
     request(url, { json: true }, (err, response, data) => {
-        if (err) { return console.log(err); }
-        const abstracts = data.data.map(obj => ({...obj}));
-        res.render("home",{abstracts});
+        if (err) {
+            return console.log(err);
+        }
+        const abstracts = data.data.map(obj => ({ ...obj }));
+        res.render("home", { abstracts });
     });
-})
+});
 
 app.get('/scoreboard', (req, res)=>{
     let url = "https://api.cricapi.com/v1/currentMatches?apikey="+API_KEY;
