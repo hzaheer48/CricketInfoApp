@@ -42,7 +42,7 @@ const API_KEY = 'your-api-key';
 Start the server:
 
 ```bash
-npm start
+node index.js
 ```
 
 Visit [http://localhost:8080](http://localhost:8080) in your browser to access the cricket dashboard.
@@ -55,9 +55,12 @@ Visit [http://localhost:8080](http://localhost:8080) in your browser to access t
 - Display details about teams and players
 - Search for players by name
 
-## License
+## Screenshots
+![Alt text](/screenshots/screenshot_1.png?raw=true "Optional Title")
+![Alt text](/screenshots/screenshot_2.png?raw=true "Optional Title")
+![Alt text](/screenshots/screenshot_3.png?raw=true "Optional Title")
+![Alt text](/screenshots/screenshot_4.png?raw=true "Optional Title")
+![Alt text](/screenshots/screenshot_5.png?raw=true "Optional Title")
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-
-Feel free to use and modify this Markdown file as needed.
+## Contributions
+Feel free to contribute to this project by opening issues or creating pull requests.
