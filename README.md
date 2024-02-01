@@ -42,7 +42,7 @@ const API_KEY = 'your-api-key';
 Start the server:
 
 ```bash
-npm start
+node index.js
 ```
 
 Visit [http://localhost:8080](http://localhost:8080) in your browser to access the cricket dashboard.
@@ -54,6 +54,13 @@ Visit [http://localhost:8080](http://localhost:8080) in your browser to access t
 - Explore cricket series information
 - Display details about teams and players
 - Search for players by name
+
+## Screenshots
+![Alt text](/screenshots/screenshot_1.png?raw=true "Optional Title")
+![Alt text](/screenshots/screenshot_2.png?raw=true "Optional Title")
+![Alt text](/screenshots/screenshot_3.png?raw=true "Optional Title")
+![Alt text](/screenshots/screenshot_4.png?raw=true "Optional Title")
+![Alt text](/screenshots/screenshot_5.png?raw=true "Optional Title")
 
 ## License
 
