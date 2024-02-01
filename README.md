@@ -62,9 +62,5 @@ Visit [http://localhost:8080](http://localhost:8080) in your browser to access t
 ![Alt text](/screenshots/screenshot_4.png?raw=true "Optional Title")
 ![Alt text](/screenshots/screenshot_5.png?raw=true "Optional Title")
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-
-Feel free to use and modify this Markdown file as needed.
+## Contributions
+Feel free to contribute to this project by opening issues or creating pull requests.
